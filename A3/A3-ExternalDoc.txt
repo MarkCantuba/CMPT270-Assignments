@@ -1,0 +1,49 @@
+// Mark Cantuba
+// 11214496
+// MJC862
+
+**External Documentation for Assignment3**
+
+1) Executing test cases
+- The test cases can simply be executed just by running each of the classes'
+main() methods, stored within each class.
+
+2) Assignment status
+- Based on the test cases I designed, everything seems to work perfectly!
+- The Hospital System class is 100% complete, including a prototype of 5 and 7.
+- The only class that is not tested, is the HospitalSystem class. Although, this class
+can simply be tested by checking the validity of the output!
+
+
+**List of classes**
+- Person Class // Parent Class
+    |- Patient Class // Sub-class of Person
+
+- BasicDoctor Class // Parent Class
+    |- Doctor Class // Sub-class of BasicDoctor
+        |- Surgeon Class // Sub-class of Doctor.
+
+- Ward Class
+
+- HospitalSystem Class
+
+**List of outputs running main methods**
+- a tester file is added named Assignment3Tester.java is provided to run all 6 classes; Person, Patient, BasicDoctor, Doctor, Surgeon, Ward.
+    |- The output obtained from this run will be the toString() methods ONLY! Any additional outputs beside the toString method will be considered
+    |- as a test case failure. The Ward class should only display 2 instances of the .getEmptyBeds(), with the 1st output containing 2 Patients,
+    |- and the second containing no Patients.
+
+- For HospitalSystem class, the main class should be run from HospitalSystem.java directly. It prompts inputs from the user. 
+
+List of Stuff in the .zip file handed in
+1) Person.java and class
+2) Patient.java and class
+3) BasicDoctor.java and class
+4) Doctor.java and class
+5) Surgeon.java and class
+6) Ward.java and class
+7) HospitalSystem.java and class
+8) Assignment3Tester.java and class
+
+9) UML Diagram.jpeg
+10) A3-ExternalDoc.txt

@@ -1,0 +1,35 @@
+// Mark Cantuba
+// MJC862
+// 11214496
+
+*** Assignment Status ***
+- The whole gui system is in stable, working condition. Just a side note though, that
+  for the prompt when the gui ask whether or not the doctor is a surgeon or not, it defaults
+  to "no."
+
+*** Executing the Project ***
+- The Assignment can be executed using the .jar file included in the zip file. It can also be executed through
+  the GuiHospitalSystem class through eclipse or any java compilers
+
+*** New Classes Added ***
+
+<Doctor Gui Commands>
+  - DoctorAccessPanel
+  - DoctorAddFrame
+  - DoctorAddPanel
+  - DoctorFrame
+  - DoctorPanel
+  - DoctorOpsFrame
+  - DoctorOpsPanel
+
+<Main Menu Gui Commands>
+  - MainMenuFrame
+  - MainMenuPanel
+
+<Patient Gui Commands>
+  - PatientAddFrame
+  - PatientAddPanel
+  - PatientRemoveFrame
+  - PatientRemovePanel
+
+

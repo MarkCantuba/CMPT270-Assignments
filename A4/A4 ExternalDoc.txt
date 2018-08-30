@@ -1,0 +1,49 @@
+// Mark Cantuba
+// 11214496
+// MJC862
+
+** UML DIAGRAM (I couldn't export to png in gliffy because it's a paid feature :[ )) **
+https://go.gliffy.com/go/share/s60hr3h9i3mr9mjgslp
+
+** EXECUTING CLASSES AND JAR FILE **
+- All the of the classes in the commands package has a main function, and are executable 
+  through eclipse or console
+
+- The .jar file should be executed using java -jar jarFile name command through a console for
+  full functionality (So both console and dialog box interface can be accessed). Jar launches the execute.java
+  file's main class.
+
+** ASSIGNMENT STATUS **
+- Assignment is in stable condition. No known bugs are found throughout testing proccess. only 4 classes are 
+  implemented in both dialog and console interfaces. These commands include:
+                    -> assigning patient to bed
+                    -> adding new patient to database
+                    -> releasing patient out of a bed
+                    -> displaying all available beds
+
+- The classes that are not used, are modified so that the program would not crash. HospitalSystem has been converted
+  to a Controller class.
+
+** LIST OF CLASSES AND PACKAGES **
+
+    >> commands Package <<              >> containers Package <<            >> entities Package <<
+    - CommandStatus                     - doctorAccess                      - BasicDoctor
+    - assignPatientToBedCmd             - patientAccess                     - Doctor
+    - getEmptyBedsCmd                   - WardAccess                        - Patient
+    - newPatientCmd                                                         - Person
+    - releasePatientCmd                                                     - Surgeon
+                                                                            - Ward
+
+    >> startup Package <<               >> userInterfaces Package <<
+    - HospitalSystem                    - AbstractDialogIO
+    - Execute                           - InputOutputInterface
+                                        - ConsoleIO
+                                        - DialogIO
+
+- A .jar file that executes a Execute class.
+- External Documentation
+
+    
+
+
+

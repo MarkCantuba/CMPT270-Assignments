@@ -1,0 +1,24 @@
+// Mark Cantuba
+// MJC862
+// 1121496
+
+*** Executing tests for all the classes ***
+- To compile the classes created, Person.java, BasicDoctor.java and Ward.java must be provided, preferably stored in the same folder for easy compilation.
+- A testerClass is provided to us, which runs the main method for each of the class we created, in one go.
+- The only thing that are outputted if no errors were found will be the toString() method for both Person and Ward Class.
+
+*** Assignment Status ***
+- The code is working perfectly, as of hand-in date. BasicDoctor isn't used for this assignment, but is tested. 
+
+
+*** List of Classes ***
+-Person
+-BasicDoctor
+-Ward
+
+*** List of Outputs ***
+- errors if something wrong with a method, else will run silent
+- toString method for Person and Ward class (in Ward's main method)
+
+*** UML Diagram ***
+- https://go.gliffy.com/go/share/sxubyppflnytij1ga164

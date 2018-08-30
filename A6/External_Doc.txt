@@ -1,0 +1,32 @@
+// Mark Cantuba
+// MJC862
+// 11214496
+
+*** Assignment 6 External Documentation ***
+
+-- Executing and Test Class --
+
+-> SpaceInvader program can be executed through the .jar file or through the SpaceInvader
+   package through eclipse.
+-> There are no testing classes for this project, since it is a GUI Project. Bugs can be checked throughout
+   the execution of the game.
+
+-- Project Status --
+
+-> The Project is in stable condition. Everything is in working condition.
+-> The program has been modified so that a new window will appear if a new game
+   has been started. If game is over, then the window will disappear, otherwise
+   the window remains.
+-> The program has also been modified such that the player can fire more than 1 laser
+   at a time, with a cooldown of .5s between each fire.
+
+-- Changelog --
+
+-> A new package, called invaderView has been added. It Contains:
+               - invaderView.java
+               - invaderPanel.java
+-> Controller class is also updated so that it shows the new invader panel
+   when a new game is invoked.
+-> Game.java has been modified so that it handles more than 1 laser at a time,
+   by changing the single instance of laser into a list of gameObjects.
+

@@ -1,0 +1,6 @@
+// Mark Cantuba
+// MJC862
+// 11214496
+
+*** Assignment Status ***
+- The whole gui system is in stable, working condition. 
